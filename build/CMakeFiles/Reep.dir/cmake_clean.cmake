@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../lib/libReep.pdb"
+  "../lib/libReep.so"
+  "CMakeFiles/Reep.dir/Acceptor.o"
+  "CMakeFiles/Reep.dir/Acceptor.o.d"
+  "CMakeFiles/Reep.dir/Buffer.o"
+  "CMakeFiles/Reep.dir/Buffer.o.d"
+  "CMakeFiles/Reep.dir/Channel.o"
+  "CMakeFiles/Reep.dir/Channel.o.d"
+  "CMakeFiles/Reep.dir/CurrentThread.o"
+  "CMakeFiles/Reep.dir/CurrentThread.o.d"
+  "CMakeFiles/Reep.dir/DefaultPoller.o"
+  "CMakeFiles/Reep.dir/DefaultPoller.o.d"
+  "CMakeFiles/Reep.dir/EPollPoller.o"
+  "CMakeFiles/Reep.dir/EPollPoller.o.d"
+  "CMakeFiles/Reep.dir/EventLoop.o"
+  "CMakeFiles/Reep.dir/EventLoop.o.d"
+  "CMakeFiles/Reep.dir/EventLoopThread.o"
+  "CMakeFiles/Reep.dir/EventLoopThread.o.d"
+  "CMakeFiles/Reep.dir/EventLoopThreadPool.o"
+  "CMakeFiles/Reep.dir/EventLoopThreadPool.o.d"
+  "CMakeFiles/Reep.dir/InetAddress.o"
+  "CMakeFiles/Reep.dir/InetAddress.o.d"
+  "CMakeFiles/Reep.dir/Logger.o"
+  "CMakeFiles/Reep.dir/Logger.o.d"
+  "CMakeFiles/Reep.dir/Poller.o"
+  "CMakeFiles/Reep.dir/Poller.o.d"
+  "CMakeFiles/Reep.dir/Socket.o"
+  "CMakeFiles/Reep.dir/Socket.o.d"
+  "CMakeFiles/Reep.dir/TcpConnection.o"
+  "CMakeFiles/Reep.dir/TcpConnection.o.d"
+  "CMakeFiles/Reep.dir/TcpServer.o"
+  "CMakeFiles/Reep.dir/TcpServer.o.d"
+  "CMakeFiles/Reep.dir/Thread.o"
+  "CMakeFiles/Reep.dir/Thread.o.d"
+  "CMakeFiles/Reep.dir/Timestamp.o"
+  "CMakeFiles/Reep.dir/Timestamp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Reep.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
