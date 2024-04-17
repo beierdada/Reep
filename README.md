@@ -11,10 +11,10 @@ cd ./Reep && bash autobuild.sh
 ### 测试案例
 ```bash
 cd ./example
-#编译
+# 编译
 make
-#启动一个简单的EchoServer服务
+# 启动一个简单的EchoServer服务
 ./testserver
-#连接
+# 连接
 telnet 127.0.0.1 8000
 ```
